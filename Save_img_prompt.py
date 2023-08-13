@@ -19,8 +19,12 @@ ALLOWED_IMG_EXT = ('.png', '.jpg', '.jpeg')
 #Initialize colorama
 colorama.init(autoreset=True)
 
-# Originally from WAS Token Class
-# Which was orginally from Comfui
+#---------------------------------------------------------------------------------------------------------------------------------------------------#
+# Credits                                                                                                                                           #
+# WASasquatch                             https://github.com/WASasquatch/was-node-suite-comfyui    
+# Originally from WAS Save Image Class
+# Which was orginally from Comfui/node class
+#---------------------------------------------------------------------------------------------------------------------------------------------------#
 
 class TextTokens:
     def __init__(self):
