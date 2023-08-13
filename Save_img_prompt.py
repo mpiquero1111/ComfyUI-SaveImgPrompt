@@ -123,8 +123,6 @@ class Save_img_prompt:
         delimiter = filename_delimiter
         number_padding = filename_number_padding if filename_number_padding > 1 else 4
 
-        update_node_status(unique_id, "", None)
-
         # Define token system
         tokens = TextTokens()
 
