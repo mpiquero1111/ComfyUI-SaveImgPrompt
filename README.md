@@ -17,9 +17,8 @@ I have added this node to the IO category
 
 ## Installation: 
 
-Use git clone 
-
-in your ComfyUI custom nodes directory
+Use git clone https://github.com/mpiquero7164/ComfyUI-SaveImgPrompt.git in your ComfyUI custom nodes directory
+Restart Comfyui and you're good to go
 
 ## Examples: 
 
