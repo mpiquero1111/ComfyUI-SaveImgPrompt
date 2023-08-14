@@ -10,7 +10,7 @@ import socket
 import re
 import folder_paths as comfy_paths
 
-# by mpiquero
+# by mpiquero v1.0.1
 # comfyUI node to save an image and prompt and details
 
 ALLOWED_PROMPT_EXT = ('.txt', '.json')
@@ -94,7 +94,7 @@ class Save_img_prompt:
                 "save_prompt": (["true","false"],)
                 },
             "hidden": {
-                "prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO", "unique_id": "UNIQUE_ID"
+                "prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO"
             },
             }
 
@@ -106,7 +106,6 @@ class Save_img_prompt:
 
     def Save_img_prompt(self, 
                         images,
-                        unique_id,
                         output_path=None, 
                         filename_prefix="ComfyUI", 
                         filename_delimiter='_', 
